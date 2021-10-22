@@ -26,7 +26,7 @@ $ docker-compose ps
 akhq              docker-entrypoint.sh ./akhq      Up             0.0.0.0:9000->9000/tcp
 kafka             /etc/confluent/docker/run        Up             0.0.0.0:29092->29092/tcp, 0.0.0.0:9092->9092/tcp
 postgres          docker-entrypoint.sh postgres    Up             0.0.0.0:5432->5432/tcp
-schema-registry   /etc/confluent/docker/run        Up             0.0.0.0:8081->8081/tcp
+schema-registry   /etc/confluent/docker/run        Up             0.0.0.0:9012->9012/tcp
 zookeper          /etc/confluent/docker/run        Up             0.0.0.0:2181->2181/tcp, 2888/tcp, 3888/tcp
 
 ```
