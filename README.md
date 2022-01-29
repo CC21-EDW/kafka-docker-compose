@@ -2,6 +2,8 @@
 Provides a Kafka environment with all required components for the project.
 The sources originated from [Baloise Kafka Docker Compose][Baloise Kafka Docker Compose]
 
+A good reference can be found at https://github.com/ivangfr/springboot-kafka-connect-jdbc-streams/blob/master/docker-compose.yml. 
+
 ## Security
 - There is no Security  
 - This setup works with PLAINTEXT and not SSL regarding Kafka.
